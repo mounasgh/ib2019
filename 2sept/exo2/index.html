@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Les balises HTML</title>
+    </head>
+    <body>
+        
+        <!-- Les balises de titre -->
+        <h1>Titre principal (unique)</h1>
+        <h2>Sous-titre</h2>
+        <h3>Jusqu'à <i>h5/h6</i>...</h3>
+
+        <!-- Les balises pour le texte -->
+        <p>Lorem ipsum dolor <b>texte en gras</b> sit amet consectetur adipisicing elit. Itaque culpa fugit optio praesentium sunt fugiat voluptas, tempore similique <i>texte en italique</i> excepturi sapiente ut? Dolore expedita explicabo, corrupti accusantium <u>texte sousligné</u> eveniet accusamus cumque id!</p>
+
+        <!-- Les balises pour les listes -->
+        <ol>
+            <li>Lorem</li>
+            <li>Ipsum</li>
+            <li>Dolor</li>
+        </ol>
+        <ul>
+            <li>Lorem</li>
+            <li>Ipsum</li>
+            <li>Dolor</li>
+        </ul>
+        
+
+        <!-- Les boutons et les liens -->
+        <button>Je suis un bouton</button>
+        <br>
+        <a href="http://www.google.com" target="_blank">Lien vers Google</a>
+
+        <!-- Les tableaux -->
+        <table>
+            <caption>My skills</caption>
+            <tr>
+                <th>HTML</th>
+                <th>CSS</th>
+                <th>JS</th>
+            </tr>
+            <tr>
+                <td>1/5</td>
+                <td>2/5</td>
+                <td>3/5</td>
+            </tr>
+            <tr>
+                <td colspan="3"><b>Depuis septembre 2019</b></td>
+            </tr>
+            <tr>
+                <td>3/5</td>
+                <td>4/5</td>
+                <td>5/5</td>
+            </tr>
+        </table>
+
+        <!-- Les formulaires -->
+        <form action="#" method="POST">
+            <fieldset>
+                <legend>Vos identifiants</legend>
+                <!-- <label for="userId">Votre identifiant</label> -->
+                <input type="text" name="user" id="userId" placeholder="Votre identifiant">
+
+                <!-- <label for="passwordId">Votre mot de passe</label> -->
+                <input type="password" name="password" id="passwordId" placeholder="Votre mot de passe">
+            </fieldset>
+
+            <fieldset>
+                <legend>Options</legend>
+                <input type="checkbox" id="checkboxId"> 
+                <label for="checkboxId">Me connecter automatiquement</label>
+            </fieldset>
+
+            <button type="submit">Connexion</button>
+            <button type="reset">Vider le formulaire</button>
+        </form>
+
+    </body>
+</html>
